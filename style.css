@@ -1,0 +1,31 @@
+body {
+     background-color:gray;
+     padding:0;
+     margin:0;
+}
+
+a {
+    text-align: center;
+    height: 130px;
+    width: 260px;
+    background-color:plum;
+    position: absolute;
+    margin:auto;
+    left:0;
+    right:0;
+    top:0;
+    bottom:0;
+    font-size:50px;
+    padding:10px;
+    padding-top:60px;
+    text-decoration: none;
+    border-radius:10px;
+    box-shadow: 0 10px 0px rgb(88, 14, 88), 0px 10px 20px #222222;
+    transition: all 0.2 ease;
+}
+
+
+a:active {
+    box-shadow:none;
+    top:8px;
+}
